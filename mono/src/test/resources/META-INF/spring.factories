@@ -1,0 +1,5 @@
+org.springframework.test.context.ContextCustomizerFactory = \
+    com.lcaohoanq.prj.config.\
+    SqlTestContainersSpringContextCustomizerFactory,com.lcaohoanq.prj.config.\
+    TestContainersSpringContextCustomizerFactory,com.lcaohoanq.prj.config.\
+    PulsarTestContainersSpringContextCustomizerFactory
