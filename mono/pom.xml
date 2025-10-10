@@ -89,6 +89,7 @@
         <spring.profiles.active>dev</spring.profiles.active>
         <springdoc-openapi-starter-webflux-api.version>2.8.8</springdoc-openapi-starter-webflux-api.version>
         <testng.version>7.11.0</testng.version>
+        <commons-lang3.version>3.18.0</commons-lang3.version>
     </properties>
 
     <dependencyManagement>
@@ -287,6 +288,7 @@
         <dependency>
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-lang3</artifactId>
+          <version>${commons-lang3.version}</version>
         </dependency>
         <dependency>
             <groupId>org.awaitility</groupId>
